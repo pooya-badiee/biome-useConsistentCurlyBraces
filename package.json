@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  },
+  "format": "biome format --write",
+  "lint": "biome lint --unsafe --write",
+  "fix": "npm run lint && npm run format"
+}
